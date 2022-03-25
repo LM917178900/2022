@@ -1,0 +1,61 @@
+
+--  73 -->2
+-- AwardType 74-》254
+INSERT INTO "sys_dict" VALUES (254, 2, NULL, 'AwardType', '', '0-73-74', 'AwardType', NULL, 0, 1, 0, NULL, '2020-04-08 16:23:19.877', NULL, '2020-05-07 21:08:12.66', 0, 0);
+
+-- 365->255 (261-265)
+INSERT INTO "sys_dict" VALUES (255, 254, NULL, 'Corp', '', '0-73-74-365', 'Corp', 3, 0, 1, 0, NULL, '2020-04-26 00:58:14.952', NULL, '2020-04-26 01:00:51.766', 1, NULL);
+INSERT INTO "sys_dict" VALUES (261, 255, NULL, 'Lenovo Heroes', '', '0-73-74-365-366', 'Lenovo Heroes', 231, 1, 1, 0, NULL, '2020-04-26 00:58:30.615', NULL, NULL, 1, NULL);
+INSERT INTO "sys_dict" VALUES (262, 255, NULL, '杰出个人奖', '', '0-73-74-365-369', '杰出个人奖', 234, 1, 1, 0, NULL, '2020-04-26 00:59:18.263', NULL, NULL, 1, NULL);
+INSERT INTO "sys_dict" VALUES (263, 255, NULL, '联想奖', '', '0-73-74-365-367', '联想奖', 232, 1, 1, 0, NULL, '2020-04-26 00:58:47.305', NULL, NULL, 1, NULL);
+INSERT INTO "sys_dict" VALUES (264, 255, NULL, '联想风范奖', '', '0-73-74-365-368', '联想风范奖', 233, 1, 1, 0, NULL, '2020-04-26 00:59:02.552', NULL, NULL, 1, NULL);
+INSERT INTO "sys_dict" VALUES (265, 255, NULL, '优秀团队', '', '0-73-74-365-370', '优秀团队', 235, 1, 1, 0, NULL, '2020-04-26 00:59:32.138', NULL, '2020-04-27 01:36:47.739', 1, NULL);
+
+-- 76->256(266-268)
+INSERT INTO "sys_dict" VALUES (256, 254, NULL, 'MBG Quality', '', '0-73-74-76', 'Quality', 2, 0, 1, 0, NULL, '2020-04-08 16:23:58.022', NULL, '2020-05-09 16:27:53.72', 1, NULL);
+INSERT INTO "sys_dict" VALUES (266, 256, NULL, 'Spot Award', '', '0-73-74-76-361', 'Spot Award', 21, 1, 1, 0, NULL, '2020-04-26 00:56:24.512', NULL, NULL, 1, NULL);
+INSERT INTO "sys_dict" VALUES (267, 256, NULL, '', '', '0-73-74-76-419', 'Team Excellence', NULL, 1, 1, 0, NULL, '2020-05-09 16:24:13.308', NULL, '2020-05-09 16:28:13.87', 1, NULL);
+INSERT INTO "sys_dict" VALUES (268, 256, NULL, 'Individual', '', '0-73-74-76-362', 'Individual Excellence', 22, 0, 1, 0, NULL, '2020-04-26 00:57:00.17', NULL, '2020-05-09 16:28:06.575', 1, NULL);
+
+
+-- 75->257
+INSERT INTO "sys_dict" VALUES (257, 254, NULL, 'MBG Bravo', '', '0-73-74-75', 'MBG Bravo', 1, 0, 1, 0, NULL, '2020-04-08 16:23:32.141', NULL, '2020-04-26 00:55:27.139', 1, NULL);
+
+--371->258(270-272)
+INSERT INTO "sys_dict" VALUES (258, 254, NULL, 'GSC', '', '0-73-74-371', 'GSC', 4, 0, 1, 0, NULL, '2020-04-26 01:00:41.016', NULL, NULL, 1, NULL);
+INSERT INTO "sys_dict" VALUES (270, 258, NULL, 'Individual', '', '0-73-74-371-389', 'Individual Excellence', 1, 1, 1, 0, NULL, '2020-04-27 08:48:28.973', NULL, '2020-05-14 16:26:51.177', 1, NULL);
+INSERT INTO "sys_dict" VALUES (271, 258, NULL, 'Team', '', '0-73-74-371-390', 'Team Excellence', 1, 1, 1, 0, NULL, '2020-04-27 08:48:39.588', NULL, '2020-05-14 16:26:41.963', 1, NULL);
+INSERT INTO "sys_dict" VALUES (272, 258, NULL, '优秀团队', '', '0-73-74-371-387', '优秀团队', 1, 1, 1, 1, NULL, '2020-04-27 01:39:11.091', NULL, NULL, 1, NULL);
+
+-- 682->259(273)
+INSERT INTO "sys_dict" VALUES (259, 254, NULL, 'MBG', '', '0-73-74-682', 'MBG', NULL, 0, 1, 0, NULL, '2020-06-12 15:52:12.803', NULL, NULL, 1, NULL);
+INSERT INTO "sys_dict" VALUES (273, 259, NULL, '', '', '0-73-74-682-683', 'Individual Excellence', NULL, 1, 1, 0, NULL, '2020-06-12 15:52:37.342', NULL, NULL, 1, NULL);
+-- INSERT INTO "sys_dict" VALUES (834, 254, NULL, '', '', '0-73-74-834', 'testaaaaa', NULL, 1, 1, 0, NULL, '2021-02-07 09:43:35.286', NULL, NULL, 1, NULL);
+
+
+-- -- AwardTime 78-》260(274-280)
+INSERT INTO "sys_dict" VALUES (260, 2, NULL, 'FiscalYear', '', '0-73-78', 'FiscalYear', NULL, 0, 1, 0, NULL, '2020-04-08 17:05:08.086', NULL, NULL, 0, 0);
+INSERT INTO "sys_dict" VALUES (274, 260, NULL, 'FY2015', '', '0-73-74-85', 'FY2015', 6, 1, 1, 0, NULL, '2020-04-08 17:07:04.427', NULL, '2020-05-09 01:40:33.627', 1, NULL);
+INSERT INTO "sys_dict" VALUES (275, 260, NULL, 'FY2014', '', '0-73-78-84', 'FY2014', 7, 1, 1, 0, NULL, '2020-04-08 17:06:56.768', NULL, '2020-05-09 01:40:41.417', 1, NULL);
+INSERT INTO "sys_dict" VALUES (276, 260, NULL, 'FY2020', '', '0-73-78-376', 'FY2020', 1, 1, 1, 0, NULL, '2020-04-26 09:01:04.717', NULL, '2020-05-09 01:39:44.854', 1, NULL);
+INSERT INTO "sys_dict" VALUES (277, 260, NULL, 'FY2019', '', '0-73-78-375', 'FY2019', 2, 1, 1, 0, NULL, '2020-04-26 09:00:57.473', NULL, '2020-05-09 01:39:54.626', 1, NULL);
+INSERT INTO "sys_dict" VALUES (278, 260, NULL, 'FY2018', '', '0-73-78-374', 'FY2018', 3, 1, 1, 0, NULL, '2020-04-26 09:00:50.113', NULL, '2020-05-09 01:40:01.846', 1, NULL);
+INSERT INTO "sys_dict" VALUES (279, 260, NULL, 'FY2017', '', '0-73-78-373', 'FY2017', 4, 1, 1, 0, NULL, '2020-04-26 09:00:42.964', NULL, '2020-05-09 01:40:12.032', 1, NULL);
+INSERT INTO "sys_dict" VALUES (280, 260, NULL, 'FY2016', '', '0-73-78-372', 'FY2016', 5, 1, 1, 0, NULL, '2020-04-26 09:00:32.894', NULL, '2020-05-09 01:40:23.971', 1, NULL);
+
+-- quarter 79-》269(281-284)
+INSERT INTO "sys_dict" VALUES (269, 2, NULL, 'Quarter', '', '0-73-79', 'Quarter', NULL, 0, 1, 0, NULL, '2020-04-08 17:05:21.978', NULL, NULL, 0, 0);
+INSERT INTO "sys_dict" VALUES (281, 269, NULL, 'Q2', '', '0-73-79-81', 'Q2', 2, 1, 1, 0, NULL, '2020-04-08 17:06:17.417', NULL, '2020-04-26 09:02:03.631', 1, NULL);
+INSERT INTO "sys_dict" VALUES (282, 269, NULL, 'Q1', '', '0-73-79-80', 'Q1', 1, 1, 1, 0, NULL, '2020-04-08 17:06:02.933', NULL, '2020-04-26 09:02:07.777', 1, NULL);
+INSERT INTO "sys_dict" VALUES (283, 269, NULL, 'Q3', '', '0-73-79-82', 'Q3', 3, 1, 1, 0, NULL, '2020-04-08 17:06:27.915', NULL, '2020-04-26 09:02:13.578', 1, NULL);
+INSERT INTO "sys_dict" VALUES (284, 269, NULL, 'Q4', '', '0-73-79-83', 'Q4', 4, 1, 1, 0, NULL, '2020-04-08 17:06:37.782', NULL, '2020-04-26 09:02:17.071', 1, NULL);
+
+SELECT setval('sys_dict_id_seq ', 285);
+
+
+
+
+
+
+
+

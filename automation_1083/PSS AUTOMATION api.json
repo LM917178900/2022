@@ -1,0 +1,162 @@
+[auotmation api]
+
+1. lcAverage 入参
+{
+    "processAlignment": false,
+    "taConstraint": false,
+    "saConstraint": false,
+    "disableProcessAlignment": false,
+    "disableTaConstraint": false,
+    "disableSaConstraint": true,
+    "cfcBeCatchUp":true,
+    "quarterNumber": 2,
+    "headerSelectQuery": {
+        "demandTarget": 1,
+        "factoryList": [
+            "WH"
+        ],
+        "processList": [
+            "Ship FG",
+            "CFC",
+            "BE XCVR"
+        ],
+        "product": "BERLIN21",
+        "productId": "a75bb4b2c1d9c540fd3be7b696eefe6a",
+        "pssId": 1292,
+        "template": "089652c4ba704af8a051efbb3ecd18da",
+        "version": "Ver.196_20210908"
+    },
+    "pssConfigList": [
+        {
+            "selected": false,
+            "leading": false,
+            "product": "BERLIN21",
+            "factory": "WH",
+            "process": "BE XCVR",
+            "region": "APMEA",
+            "country": "ALL",
+            "customer": "ALL",
+            "model": "ALL",
+            "xcvr": "ALL",
+            "rampUp": "Standard",
+            "saDate": "2021-07-28 00:00:00",
+            "startDate": "2021-07-05",
+            "rampUpClosed": "2021-08-02",
+            "rampUpConfig": {
+                "W1": 20,
+                "W2": 50,
+                "W3": 80,
+                "W4": 100
+            },
+            "ukey": 0,
+            "W1": "20",
+            "W2": "50.0",
+            "W3": "80.0",
+            "W4": "100"
+        }
+    ],
+    "skewPatternVo": {
+        "firstQuarterSkew": "Q Base Average Skew",
+        "secondQuarterSkew": "Q Base Average Skew",
+        "firstCustomizedSkew": {},
+        "secondCustomizedSkew": {},
+        "lcAverage": true
+    },
+    "ok2pilotMap": {}
+}
+
+
+2. cfcBeCatchUp & rampUpClosed  入参
+ 注：be&cfc流程必须有；
+ 
+{
+    "processAlignment": false,
+    "taConstraint": false,
+    "saConstraint": false,
+    "disableProcessAlignment": false,
+    "disableTaConstraint": false,
+    "disableSaConstraint": true,
+    "cfcBeCatchUp":true,
+    "quarterNumber": 2,
+    "headerSelectQuery": {
+        "demandTarget": 1,
+        "factoryList": [
+            "WH"
+        ],
+        "processList": [
+            "Ship FG",
+            "CFC",
+            "BE XCVR"
+        ],
+        "product": "BERLIN21",
+        "productId": "a75bb4b2c1d9c540fd3be7b696eefe6a",
+        "pssId": 1292,
+        "template": "089652c4ba704af8a051efbb3ecd18da",
+        "version": "Ver.196_20210908"
+    },
+    "pssConfigList": [
+        {
+            "selected": false,
+            "leading": false,
+            "product": "BERLIN21",
+            "factory": "WH",
+            "process": "BE XCVR",
+            "region": "APMEA",
+            "country": "ALL",
+            "customer": "ALL",
+            "model": "ALL",
+            "xcvr": "ALL",
+            "rampUp": "Standard",
+            "saDate": "2021-07-28 00:00:00",
+            "startDate": "2021-07-05",
+            "rampUpClosed": "2021-08-02",
+            "rampUpConfig": {
+                "W1": 20,
+                "W2": 50,
+                "W3": 80,
+                "W4": 100
+            },
+            "ukey": 0,
+            "W1": "20",
+            "W2": "50.0",
+            "W3": "80.0",
+            "W4": "100"
+        },
+                {
+            "selected": false,
+            "leading": false,
+            "product": "BERLIN21",
+            "factory": "WH",
+            "process": "CFC",
+            "region": "APMEA",
+            "country": "ALL",
+            "customer": "ALL",
+            "model": "ALL",
+            "xcvr": "ALL",
+            "rampUp": "Standard",
+            "saDate": "2021-07-28 00:00:00",
+            "startDate": "2021-07-05",
+            "rampUpClosed": "2021-08-02",
+            "rampUpConfig": {
+                "W1": 20,
+                "W2": 50,
+                "W3": 80,
+                "W4": 100
+            },
+            "ukey": 0,
+            "W1": "20",
+            "W2": "50.0",
+            "W3": "80.0",
+            "W4": "100"
+        }
+    ],
+    "skewPatternVo": {
+        "firstQuarterSkew": "Q Base Average Skew",
+        "secondQuarterSkew": "Q Base Average Skew",
+        "firstCustomizedSkew": {},
+        "secondCustomizedSkew": {},
+        "lcAverage": true
+    },
+    "ok2pilotMap": {}
+}
+

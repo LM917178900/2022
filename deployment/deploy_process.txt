@@ -1,0 +1,61 @@
+COMMAND: 
+set -eu; 
+rm -rf /data/npi-app/npi/tmp; 
+mkdir -p /data/npi-app/npi/tmp
+
+
+
+COMMAND: 
+bash /data/npi-app/npi/tmp/script/xops.sh 2>&1
+
+PROCESS RATIO: 5
+[INFO][2022-01-25 14:06:15]:[ Start to unzip&check the package ]
+start to unzip /data/npi-app/npi/tmp/script/..//data/npi-pss-server-upgrade.zip
+mkdir: /data/npi-app/npi/tmp/script/..//tmp/20220125140544948992/npi-pss-server/
+mkdir: /data/npi-app/npi/tmp/script/..//tmp/20220125140544948992/npi-pss-server/bin/
+mkdir: /data/npi-app/npi/tmp/script/..//tmp/20220125140544948992/npi-pss-server/config/
+mkdir: /data/npi-app/npi/tmp/script/..//tmp/20220125140544948992/npi-pss-server/lib/
+extract to: /data/npi-app/npi/tmp/script/..//tmp/20220125140544948992/npi-pss-server/bin/restart.sh
+extract to: /data/npi-app/npi/tmp/script/..//tmp/20220125140544948992/npi-pss-server/config/banner.txt
+extract to: /data/npi-app/npi/tmp/script/..//tmp/20220125140544948992/npi-pss-server/bin/shutdown.sh
+extract to: /data/npi-app/npi/tmp/script/..//tmp/20220125140544948992/npi-pss-server/bin/startup.bat
+extract to: /data/npi-app/npi/tmp/script/..//tmp/20220125140544948992/npi-pss-server/config/generatorConfig.xml
+extract to: /data/npi-app/npi/tmp/script/..//tmp/20220125140544948992/npi-pss-server/config/logback.xml
+extract to: /data/npi-app/npi/tmp/script/..//tmp/20220125140544948992/npi-pss-server/config/application-test.yml
+extract to: /data/npi-app/npi/tmp/script/..//tmp/20220125140544948992/npi-pss-server/config/mime-type.properties
+extract to: /data/npi-app/npi/tmp/script/..//tmp/20220125140544948992/npi-pss-server/config/application.yml
+extract to: /data/npi-app/npi/tmp/script/..//tmp/20220125140544948992/npi-pss-server/bin/startup.sh
+extract to: /data/npi-app/npi/tmp/script/..//tmp/20220125140544948992/npi-pss-server/lib/user-id-1.0.0.jar
+extract to: /data/npi-app/npi/tmp/script/..//tmp/20220125140544948992/npi-pss-server/lib/common-platform-1.0.0.jar
+extract to: /data/npi-app/npi/tmp/script/..//tmp/20220125140544948992/npi-pss-server/lib/npi-pss-server.jar
+unzipping file done
+PROCESS RATIO: 10
+[INFO][2022-01-25 14:06:15]:[ Start to backup site ]
+[INFO][2022-01-25 14:06:15]:[ Exclude file list ]
+PROCESS RATIO: 15
+[INFO][2022-01-25 14:06:24]:[ Start to shutdown service, CMD_SHUTDOWN=sudo sh /data/npi-app/npi/deploy/shutdown.sh ]
+kill 30514
+npi-pss-server stopped successfully
+PROCESS RATIO: 20
+[INFO][2022-01-25 14:06:24]:[ Start to deploy the site ]
+PROCESS RATIO: 50
+PROCESS RATIO: 70
+[INFO][2022-01-25 14:06:24]:[ Start to startup service, CMD_STARTUP=sudo sh /data/npi-app/npi/deploy/startup.sh ]
+================================================ 2022-01-25 14:06:24 ================================================
+application name: npi-pss-server
+application jar name: npi-pss-server.jar
+application bin path: /data/npi-app/npi/deploy
+application root path: /data/npi-app/npi/deploy/npi-pss-server
+application log path: /data/npi-app/npi/deploy/npi-pss-server/logs/npi-pss-server.log
+application JAVA_OPT : -server -Xms3g -Xmx3g -Xmn512m -XX:MetaspaceSize=64m -XX:MaxMetaspaceSize=256m -XX:-OmitStackTraceInFastThrow -XX:+HeapDumpOnOutOfMemoryError
+application background startup command: nohup /opt/jdk1.8.0_271/bin/java -server -Xms3g -Xmx3g -Xmn512m -XX:MetaspaceSize=64m -XX:MaxMetaspaceSize=256m -XX:-OmitStackTraceInFastThrow -XX:+HeapDumpOnOutOfMemoryError -jar -Xbootclasspath/a:/data/npi-app/npi/deploy/npi-pss-server /data/npi-app/npi/deploy/npi-pss-server/lib/npi-pss-server.jar --spring.config.location=/data/npi-app/npi/deploy/npi-pss-server/config/ --logging.config=/data/npi-app/npi/deploy/npi-pss-server/config/logback.xml > /data/npi-app/npi/deploy/npi-pss-server/logs/npi-pss-server.log 2>&1 &
+application pid: 13680 30514
+
+PROCESS RATIO: 90
+[INFO][2022-01-25 14:06:24]:[ Clean temp directory ]
+[INFO][2022-01-25 14:06:24]:[ ========================================== ]
+[INFO][2022-01-25 14:06:24]:[ *   Deploy Successfully！！！YES! (^_^)   * ]
+[INFO][2022-01-25 14:06:24]:[ ========================================== ]
+PROCESS RATIO: 100
+
+RETCODE: 0

@@ -1,0 +1,83 @@
+【大化小，一件一件完成】
+
+----------------------------- dev 分支 ---------------------------------------
+【homepage 页面跳转】
+1. schedule 
+({"npiProductId":"54d5a088c19aeb85318a20d79dc7e7b6","version":"Ver.2_20210820"})
+
+2. biz case 
+({"npiProductName":"","product":"BERLIN NA","version":"CWV_20210706_002","regions":[],"countries":[],"customers":[],"factories":[],"model":[],"color":[],"view":1})
+
+3.pdp 
+({"current":1,"pageSize":10,"orderByClause":"","npiProductName":"BERLIN NA","productName":"BERLIN NA","version":"20210719","timeView":"quarter","type":"Detail","geo":[],"subgeo":[],"country":[],"region":[],"seller":[],"product":[],"xcvr":[],"color":[],"siteId":[]})
+
+4.ltf (x)
+
+5. od 
+({"module":1,"func":8,"npiProductName":"BERLIN21","version":"Ver.12_20220106","odNameLevelOneList":[],"odNameLevelTwoList":[],"unitK":true})
+
+6. cmf 
+({"type":2,"npiProductId":"0d2352611dec3908320ca5bfbf3567bb"})
+
+7. sourcing Board 
+({"npiProductName":"BERLIN21","oneComponentName":[],"twoComponentName":[],"npiProductId":"a75bb4b2c1d9c540fd3be7b696eefe6a"})
+
+
+
+
+
+【customer 报表联调】
+
+
+【home page bug】
+1. ttv ttq ttm 属性需要补全； V
+2. roadRamp ok2ship 排序；V
+3. risk By Cost 取整；都不保留两位小数了吗？ V
+4. data homepage 有哪些地方的财年是按自然财年计算？ 
+
+
+【ltf bug】
+1. business case 取其一，非两者；V
+2. 修改财年和财年quarter ; V
+3. reportProfile 维护；修改时根据username更新或新增；
+
+
+
+
+【其他 bug】
+ 具体哪些地方的财年需要调整？
+1. master data 修改财年和财年quarter（kpi target maintenance）;
+2. pss homepage 
+2.1 detail pss fy2021 q2 需要改；
+2.2 detail 计算的end_week  需要改；
+2.3 list  pss fy2021 q2 需要改；
+2.4 list  计算的end_week  需要改；
+
+3. od 下载少了 version 字段问题；
+4. od 上传问题；
+
+
+
+
+【性能优化】
+1. 修改视图后的影响；
+2. 之前的 功能点一遍；
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+
+
+
+------------------------------- wave1 分支 -------------------------------------

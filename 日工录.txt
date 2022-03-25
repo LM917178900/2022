@@ -1,0 +1,97 @@
+【思维方式，2分钟思考：WHY===>HOW===>WHAT】
+目标 架构/CTO
+
+发挥优势，弥补阻塞；
+一招练一万次，不要万招练一次；
+源码深入研究；
+和牛逼的人学习；
+看书提上日程；
+事事留心，日日留心；
+
+【技术要点】
+新建项目测试：
+scope 注解解析；
+maven profile 
+
+【基础】
+1. spring/spring MVC/spring boot/spring cloud 全家桶
+普通类中获取spring容器中的javabean对象
+https://www.cnblogs.com/lensener/p/8602526.html
+https://www.cnblogs.com/smellpawn/p/10799441.html
+https://blog.csdn.net/u013634252/article/details/80946404
+https://www.cnblogs.com/-zhuang/articles/10318770.html?ivk_sa=1024320u
+https://blog.csdn.net/baidu_34626715/article/details/78420154
+https://jingyan.baidu.com/article/0f5fb099aa156b2c8234ea1d.html
+https://www.sohu.com/a/284933208_100109711
+
+bean 的生命周期
+https://www.cnblogs.com/smellpawn/p/10800338.html
+
+2. 
+spring==>java (jdk 类库：数据结构、源码方法)
+
+3. 其他衍生技术
+
+
+2. 泛型获取方法并调用；
+3. 反射；
+4. 注解配置切面位置；
+5. sql 直接解析数据类代码；
+6. 决定 setter 执行顺序；
+
+
+9. 配置， JacksonConfig
+10. 类图和db 图软件；
+
+12. maven 配置增量打包；
+13. 服务器配置虚拟路劲；
+14. 面试题，深度研究；
+
+15. 搭建类型项目；
+16. 分析spring mvc 核心配置代码
+17. 分析spring boot 项目核心配置代码
+18. 配置数据库 内部连接池配置；
+21. spring mvc jetty
+
+19. sql 练习：fcsd proposal cascade; v
+20. mqm redis 问题；
+
+
+	java 技术
+1. 数据结构和算法；
+2. 网络api/并发多线程api/集合框架api
+3. 系统架构(spring/spring boot/maven/其他)
+4. fit nesse 使用；
+
+
+ 一下软件的学习
+ sql 建表软件；画图软件；
+ python,人工智能学习 完成项目架构；
+ 各种研究，学习；
+ 
+ 系统架构设计；
+ maven 结构配置：
+ 
+ 
+（架构方面的书）双11
+ 《软件架构设计》余春龙
+ 《架构整洁之道》bob
+ 《架构xxx》matinFlower
+ 《maven实战》
+ 《MySQL性能调优与架构设计》
+ 《高性能MySQL》
+ 
+ 高性能MySQL 第3版 SQL优化数据库管理 mysql从入门到精通必知必会 数据挖掘数据库原理及应用 计算机语言编程设计书籍
+ 
+/***********************************/
+ 近期安排
+ 
+ 1. 简历完善；
+ 2. 智联招聘信息 需求了解；
+ 简历中提到的技术review和实战操练;
+ 
+ 
+
+
+
+				

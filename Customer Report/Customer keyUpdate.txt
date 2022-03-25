@@ -1,0 +1,12 @@
+
+Category
+
+ Choose “Fiscal year“ and “Month” as first, click “Create” button, system will display the summary and details based on system auto calculation including “Month” and “TTV result” in KPI TTV details
+
+2. “Month” and “TTV result” are allowed to manually adjust (Month and TTV result如果是已经发布过的report的过去月份的数据就不允许改，未来的和当月的结果可以修改), Click the “update” button, the summary view will be updated accordingly. Click the “field config”, user can select the fields which will be displayed on report user vie
+
+
+
+
+
+

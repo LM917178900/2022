@@ -1,0 +1,42 @@
+
+fitnesse 
+
+-- 方法一
+!define TEST_SYSTEM {slim}
+!path D:\IdeaSpace\IdeaProject\springcontainer\target\classes
+
+!| import |
+| com.only.huahua.model |
+
+| Division |
+| numerator | denominator | quotient? |
+| 1 | 2 | 3.0 |
+| 1 | 2 | 3.0 |
+| 1 | 2 | 3.0 |
+
+
+-- 方法二
+!define TEST_SYSTEM {slim}
+!path D:\IdeaSpace\IdeaProject\springcontainer\target\classes
+
+| com.only.huahua.model.Division |
+| numerator | denominator | quotient? |
+| 1 | 2 | 3.0 |
+| 1 | 2 | 3.0 |
+| 1 | 2 | 3.0 |
+
+
+
+敏捷测试中通常采用4个层次的测试：
+
+一、自动化单元测试，通常基于Junit等Xunit系列
+
+二、自动化验收测试，可基于FitNesse
+
+三、自动化UI回归测试，可基于 Selenium 或QTP等
+
+四、手工测试
+
+
+
+
