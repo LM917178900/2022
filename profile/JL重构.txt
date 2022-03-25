@@ -112,38 +112,41 @@ java 开发
 描述（软件环境、开发工具、项目主要业务介绍、模块业务描述、系统架构技术栈描述）
 Lm
 6.
-2022/12-2022/3 NPI-DATA系统
-2021/6-2022/12 NPI-PSS系统
-开发环境：JDK1.8、maven、Redis、Nacos、mongoDB、postgreSQL、mySQL、rocketMQ、ELK、rubby、ICS、XOPS、powerBI。
-开发工具：IntellJ IDEA、PostMan、NaviCat、redisClient、Git、Edge、MmobaXterm、outlook、OneDrive、Teams、TeamsView、ToDesk。
+2021/6-2022/3 NPI系统
+
+开发环境：JDK1.8、maven、Redis、Nacos、mongoDB、postgreSQL、mySQL、Mybatis Plus、rocketMQ、ELK、rubby、ICS、XOPS、powerBI。
+开发工具：IntellJ IDEA、PostMan、Jira、NaviCat、redisClient、Git、Edge、MobaXterm、outlook、OneDrive、Teams、TeamsView、ToDesk。
 项目具体描述：
-NPI 系统是联想手机排产、销售报表管理的一个业务系统，属于联想 NPI 部门，用于进行产品的生产出货计划排产、展示产品的销售情况、展示销售人员的业绩报表已经系统数据管理等，主要参与的模块罗列如下：
-1）Homepage : 展示各个产年的销售业绩、各产品的最新排产计划和进度、系统消息、
-2）PowerBI : 使用微软的 powerBI 进行报表开发，然后将报表嵌入到系统之中、并实现数据据和报表的管理；
-3）Knowledge Search: 系统内部的数据搜索引擎 ，功能模仿百度，能够实现系统内部的资料（文件、系统消息、图片...）检索，能够实现分词检索，模块采用 ELK 技术，实现数据的管理；
-4）Data Intelligence: 该模块嵌入集成了MQM 这大数据报表系统，搜索框实现了记忆功能，下次进入页面能够展示上一次的搜索数据；
-5）BMS : 会议管理模块，管理团队会议，实现会议的可视化；
-6）Admin : 资源、角色、用户管理模块，实现所有系统用户资源的配置和权限的管理；
-7）VOC/Definition/Q&A/MasterData/... :系统消息、用户配置信息、系统主数据... 的管理模块。
-系统后台架构采用springBoot+ Nacos，由于是内部项目，用户量不大没有采用多个微服务，采用前后端分离开发，前端使用react 进行页面的集成展示。
-
-
+NPI 系统是联想手机排产、销售报表管理的一个业务系统，该属于联想 NPI(New Product Intelligence) 部门。
+系统被评为联想最复杂的系统之一，凭借该系统，我们小组获取的年度最佳团队称号。
+系统分几个阶段：
+第一个阶段是 NPI-PSS 阶段(PSS : product supply solution)，该阶段主要业务是对产品的需求、供货进行排产，然后生成排产计划。
+第二个阶段是 NPI-DATA 阶段，该阶段的主要业务是对产品、销售的数据进行汇总处理，然后展示产品的销售情况、销售人员的业绩等报表，以及对系统的数据进行维护管理等。
+参与的模块罗列如下：
+1）Homepage : 展示各个财年的销售业绩、各产品的最新排产计划和进度、系统消息、My Favorite Link 等；
+2）PowerBI : 该模块使用微软的 powerBI 进行报表开发，然后将报表嵌入到系统之中，并实现报表元数据的维护和报表的管理；
+3）Master Data: 系统主数据维护，数据可以配置，局部采用维表设计，实现数据结构化，减少建表；
+4）Data Hub: 大数据中心，把来源于 LDUP(lenovo data unified platform)联想大数据平台的数据抽取到系统数据库，用于系统的相关运算和展示；
+5）PSS : 创建、模拟、发版 PSS,用于领导的审查、指导排产发货，该模块属于系统的核心模块，业务相当复制；
+6）KPI : 报表展示，用于展示产品、产能相关的报表。
+系统后台架构采用springBoot + springCloud，后台持久层采用 Mybatis Plus 进行数据持久化，其上有service 层和 controller 层进行分层架构，系统采用shiro 权限框架，并通过接口添加注解的方式实现系统操作日志的时时记录，前后端分离开发，前端使用react 进行页面的集成展示。
 
 5.
 2020/6-2021/6 QES系统
-开发环境：JDK1.8、maven、Redis、Nacos、mongoDB、postgreSQL、mySQL、rocketMQ、ELK、rubby、ICS、jenkins、powerBI。
-开发工具：IntellJ IDEA、PostMan、NaviCat、Xshell、Xftp、redisClient、Git、Chrome、MmobaXterm、outlook、OneDrive、Skype、VPN、SicoVPN。
+
+开发环境：JDK1.8、maven、Redis、Nacos、mongoDB、postgreSQL、mySQL、Mybatis Plus、rocketMQ、ELK、rubby、ICS、jenkins、powerBI。
+开发工具：IntellJ IDEA、PostMan、Jira、NaviCat、Xshell、Xftp、redisClient、Git、Chrome、MobaXterm、outlook、OneDrive、Skype、VPN、CiscoVPN。
 项目具体描述：
-QES系统是联想手机质量管理的一个门户系统，属于联想MBG部门，系统整合了诸多的子系统如：认证系统AUTH、流程管理系统SQM、质量检测系统QIT、数据治理系统MQM，实现MBG部门对产品质量的时时管理和控制。
+QES(quality eco system)系统是联想手机质量管理的一个门户系统，属于联想MBG(motorola big data group)部门，系统整合了诸多的子系统如：认证系统AUTH、流程管理系统SQM、质量检测系统QIT、数据治理系统MQM，实现MBG部门对产品质量的时时管理和控制。
 参与完成的模块如下：
-1）Homepage : 展示系统报表的系统的消息，同时包含 qualityStar(质量之星) 和 qualityNews（质量消息页面展示）；
-2）PowerBI : 使用微软的 powerBI 进行报表开发，然后将报表嵌入到系统之中、并实现数据据和报表的管理；
-3）Knowledge Search: 系统内部的数据搜索引擎 ，功能模仿百度，能够实现系统内部的资料（文件、系统消息、图片...）检索，能够实现分词检索，模块采用 ELK 技术，实现数据的管理；
-4）Data Intelligence: 该模块嵌入集成了MQM 这大数据报表系统，搜索框实现了记忆功能，下次进入页面能够展示上一次的搜索数据；
-5）BMS : 会议管理模块，管理团队会议，实现会议的可视化；
-6）Admin : 资源、角色、用户管理模块，实现所有系统用户资源的配置和权限的管理；
+1）Homepage : 展示系统报表的系统的消息，同时展示 qualityStar(质量之星) 和 qualityNews（质量消息页面展示）等信息；
+2）PowerBI : 该模块使用微软的 powerBI 进行报表开发，然后将报表嵌入到系统之中，并实现报表元数据的维护和报表的管理；
+3）Knowledge Search: 系统内部的数据搜索引擎，功能模仿百度搜索，模块的核心功能采用 ELK 实现，实现了系统内部的资料（文件、系统消息、图片...）的检索，和分词检索；
+4）Data Intelligence: 该模块嵌入并集成了MQM 这大数据报表系统，报表搜索框实现了记忆功能，下次进入页面能够展示上一次的搜索数据；
+5）BMS : 会议管理模块，管理团队会议，实现会议的可视化配置和安排；
+6）Admin : 资源、角色、用户管理模块，实现所有系统用户的资源的配置和权限的管理；
 7）VOC/Definition/Q&A/MasterData/... :系统消息、用户配置信息、系统主数据... 的管理模块。
-系统后台架构采用springBoot+ Nacos，由于是内部项目，用户量不大没有采用多个微服务，采用前后端分离开发，前端使用react 进行页面的集成展示。
+系统后台架构采用springBoot + springCloud，由于是内部项目，用户量不大没有采用多个微服务，采用前后端分离开发，前端使用react 进行页面的集成展示。
 
 
 
@@ -152,7 +155,7 @@ QES系统是联想手机质量管理的一个门户系统，属于联想MBG部�
 2019/12-2020/6智能制造系统 go语言版
 
 开发环境：JDK1.8、TomCat 、MySQL5.1、mongoDB、Redis、maven、docker、RabbitMQ、fastDFS、checkStyle、swagger、Activiti6.0、go1.13.3。
-开发工具：IntellJ IDEA、Goland、PostMan、NaviCat、Xshell、Xftp、XMind、redisClient、Git。
+开发工具：禅道、IntellJ IDEA、Goland、PostMan、NaviCat、Xshell、Xftp、XMind、redisClient、Git。
 项目具体描述：
 智能制造系统包含：仓库管理系统WMS、供应商关系管理系统CRM、供应链管理系统SCM、生产管理系统MES、行政管理系统ERP，专为制造企业打造，是企业迈入工业4.0的必备神器。
 系统可适用于不同制造企业，因为系统抽象了制造行业所有的生产和管理流程，把所有的环节中的不同的部分使用规则来配置，想要将系统应用于不同企业，只需要修改规则，将该企业的特性加入到规则中即可。
