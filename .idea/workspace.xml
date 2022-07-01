@@ -1,7 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2b0a536c-808c-44f3-8cd6-0ecc95a1174f" name="Default Changelist" comment="update from remote" />
+    <list default="true" id="2b0a536c-808c-44f3-8cd6-0ecc95a1174f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Customer Report/Customer Format Design 需求分析.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Customer Report/Customer keyUpdate.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Customer Report/Customer report_create 需求分析.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Customer Report/Customer report_view 需求分析.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Customer Report/customer API.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homepage/HomePage 需求分析.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homepage/homepage_api.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homepage/home数据结构.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation_1083/PSS AUTOMATION api.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation_1083/PSS AUTOMATION 需求分析.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/common.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/deploy_process.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/deployconfig.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/global.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/jobconfig.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/log.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/timeutil.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/xops-rollback.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/xops.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile/JL重构.txt" beforeDir="false" afterPath="$PROJECT_DIR$/profile/JL重构.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qualityStar/imgUrl.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qualityStar/star_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qualityStar/star_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qualityStar/star_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qualityStar/star_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qualityStar/star_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/spring_key.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ueditor/ueditor_process.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/updateSql/ac_res_insert_20220112.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/updateSql/back_data_base/create_pkey.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/updateSql/back_data_base/create_sequence.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/updateSql/back_data_base/drop_sequence.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/updateSql/back_data_base/reset_sequence.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/updateSql/common_data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/updateSql/homepage.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/updateSql/qualitySatr.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/updateSql/sys_dict_insert_20210112.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/发票/2022_02_10/_第三方网约车服务公司_够谱出行行程报销单.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/发票/2022_02_10/够谱出行电子发票.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/取名字.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/日工录.txt" beforeDir="false" afterPath="$PROJECT_DIR$/日工录.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/最新硬件知识.txt" beforeDir="false" afterPath="$PROJECT_DIR$/最新硬件知识.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/饮食养生.txt" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,15 +59,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/updateSql/sys_dict_insert_20210112.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1292">
-              <caret line="68" selection-start-line="68" selection-end-line="68" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/开发流程.txt">
           <provider selected="true" editor-type-id="text-editor">
@@ -40,11 +77,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/new 2.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="703">
+              <caret line="37" column="6" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/profile/JL重构.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5358">
+              <caret line="282" selection-start-line="282" selection-end-line="282" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/project_npi/SKDCKD/api设计.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="134" column="15" selection-start-line="134" selection-start-column="15" selection-end-line="134" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -52,17 +107,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/最新硬件知识.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/饮食养生.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+            <state relative-caret-position="247">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -70,22 +116,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="69" selection-start-line="16" selection-start-column="69" selection-end-line="16" selection-end-column="69" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/取名字.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/updateSql/ac_res_insert_20220112.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1710">
-              <caret line="90" selection-start-line="90" selection-end-line="90" />
+            <state relative-caret-position="1159">
+              <caret line="61" column="50" selection-start-line="61" selection-start-column="50" selection-end-line="61" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -103,13 +135,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>3077</find>
-      <find>alter</find>
-      <find>alter table</find>
-      <find>3079</find>
-      <find>371,</find>
-      <find>682,</find>
-      <find>&lt;table_name&gt;</find>
       <find>78,</find>
       <find>74,</find>
       <find>274</find>
@@ -133,6 +158,13 @@
       <find>发现不了子模块组件</find>
       <find>sys_dict</find>
       <find>huahua</find>
+      <find>fieldName</find>
+      <find>excution</find>
+      <find>subGroupName</find>
+      <find>groupName</find>
+      <find>&quot;groupName&quot;</find>
+      <find>&quot;subGroupName&quot;</find>
+      <find>&quot;color&quot;: &quot;red&quot;</find>
     </findStrings>
     <replaceStrings>
       <replace>257,</replace>
@@ -145,6 +177,12 @@
       <replace>260,</replace>
       <replace>269,</replace>
       <replace>start 1 ;</replace>
+      <replace>subGroupName</replace>
+      <replace>execution</replace>
+      <replace>groupName</replace>
+      <replace>fieldName</replace>
+      <replace>&quot;fieldName&quot;</replace>
+      <replace>&quot;history&quot;:false,</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -160,7 +198,6 @@
         <option value="$PROJECT_DIR$/month_1/test.json" />
         <option value="$PROJECT_DIR$/deployment/xops.sh" />
         <option value="$PROJECT_DIR$/deployment/deployconfig.sh" />
-        <option value="$PROJECT_DIR$/profile/JL重构.txt" />
         <option value="$PROJECT_DIR$/month_1/month_1.txt" />
         <option value="$PROJECT_DIR$/updateSql/qualityStar.sql" />
         <option value="$PROJECT_DIR$/updateSql/Untitled.sql" />
@@ -171,6 +208,9 @@
         <option value="$PROJECT_DIR$/updateSql/back_data_base/create_pkey.sql" />
         <option value="$PROJECT_DIR$/updateSql/back_data_base/reset_sequence.sql" />
         <option value="$PROJECT_DIR$/updateSql/back_data_base/create_sequence.sql" />
+        <option value="$PROJECT_DIR$/profile/JL重构.txt" />
+        <option value="$PROJECT_DIR$/project_npi/SKDCKD/数据结构设计.json" />
+        <option value="$PROJECT_DIR$/project_npi/SKDCKD/api设计.json" />
       </list>
     </option>
   </component>
@@ -189,7 +229,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
@@ -201,6 +241,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -213,12 +255,26 @@
               <item name="2022" type="462c0819:PsiDirectoryNode" />
               <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="2022" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2022" type="462c0819:PsiDirectoryNode" />
+              <item name="profile" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2022" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2022" type="462c0819:PsiDirectoryNode" />
+              <item name="project_npi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2022" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2022" type="462c0819:PsiDirectoryNode" />
+              <item name="project_npi" type="462c0819:PsiDirectoryNode" />
+              <item name="SKDCKD" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -232,7 +288,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -284,7 +340,13 @@
       <workItem from="1646364716628" duration="2978000" />
       <workItem from="1646616914650" duration="1520000" />
       <workItem from="1646643039032" duration="1234000" />
-      <workItem from="1648117732412" duration="2846000" />
+      <workItem from="1648117732412" duration="22404000" />
+      <workItem from="1652346528346" duration="774000" />
+      <workItem from="1653287047453" duration="16764000" />
+      <workItem from="1654300940738" duration="168000" />
+      <workItem from="1654303637111" duration="921000" />
+      <workItem from="1654321780216" duration="630000" />
+      <workItem from="1656660385608" duration="570000" />
     </task>
     <task id="LOCAL-00001" summary="ddd">
       <created>1641965649941</created>
@@ -328,11 +390,18 @@
       <option name="project" value="LOCAL" />
       <updated>1648117806827</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="update from remote">
+      <created>1648194854473</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1648194854473</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="118552000" />
+    <option name="totallyTimeSpent" value="157937000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -344,17 +413,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18381241" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19894099" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -362,12 +430,13 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32899022" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.27540985" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.30163935" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="SonarLint" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.3622951" />
+      <window_info anchor="bottom" id="Messages" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -432,56 +501,16 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/profile/~$雷敏简历.txt" />
     <entry file="file://$PROJECT_DIR$/profile/雷敏简历.files/雷敏简历164.png" />
-    <entry file="file://$PROJECT_DIR$/qualityStar/star_4.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qualityStar/star_5.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qualityStar/star_1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qualityStar/star_3.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qualityStar/star_2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/deployment/log.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="99" column="14" lean-forward="true" selection-start-line="99" selection-start-column="14" selection-end-line="99" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/deployment/timeutil.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="26" column="11" lean-forward="true" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/deployment/xops.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="21" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/deployment/xops-rollback.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="11" lean-forward="true" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/deployment/common.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="225" column="49" lean-forward="true" selection-start-line="225" selection-start-column="49" selection-end-line="225" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/qualityStar/star_4.jpg" />
+    <entry file="file://$PROJECT_DIR$/qualityStar/star_5.jpg" />
+    <entry file="file://$PROJECT_DIR$/qualityStar/star_1.jpg" />
+    <entry file="file://$PROJECT_DIR$/qualityStar/star_3.jpg" />
+    <entry file="file://$PROJECT_DIR$/qualityStar/star_2.jpg" />
+    <entry file="file://$PROJECT_DIR$/deployment/log.sh" />
+    <entry file="file://$PROJECT_DIR$/deployment/timeutil.sh" />
+    <entry file="file://$PROJECT_DIR$/deployment/xops.sh" />
+    <entry file="file://$PROJECT_DIR$/deployment/xops-rollback.sh" />
+    <entry file="file://$PROJECT_DIR$/deployment/common.sh" />
     <entry file="file://$PROJECT_DIR$/month_1/npi-pss-error.log">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -499,108 +528,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/deployment/README.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/deployment/README.txt" />
     <entry file="file://$PROJECT_DIR$/updateSql/qualityStar.sql" />
-    <entry file="file://$PROJECT_DIR$/profile/JL重构.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2508">
-          <caret line="114" column="16" selection-start-line="114" selection-start-column="16" selection-end-line="114" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/deployment/global.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/deployment/deploy_process.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/deployment/global.sh" />
+    <entry file="file://$PROJECT_DIR$/deployment/deploy_process.txt" />
     <entry file="file://$PROJECT_DIR$/profile/雷敏简历.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/deployment/deployconfig.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="946">
-          <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/deployment/jobconfig.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/updateSql/back_data_base/reset_sequence.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="770">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/updateSql/homepage.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1694">
-          <caret line="77" selection-start-line="77" selection-end-line="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/updateSql/back_data_base/drop_sequence.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1078">
-          <caret line="49" selection-start-line="49" selection-end-line="49" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/updateSql/back_data_base/create_pkey.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/updateSql/back_data_base/create_sequence.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="60" selection-start-line="60" selection-end-line="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/updateSql/qualitySatr.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/updateSql/common_data.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="426" selection-start-line="426" selection-end-line="426" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/updateSql/sys_dict_insert_20210112.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1292">
-          <caret line="68" selection-start-line="68" selection-end-line="68" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/deployment/deployconfig.sh" />
+    <entry file="file://$PROJECT_DIR$/deployment/jobconfig.sh" />
+    <entry file="file://$PROJECT_DIR$/updateSql/back_data_base/reset_sequence.sql" />
+    <entry file="file://$PROJECT_DIR$/updateSql/homepage.sql" />
+    <entry file="file://$PROJECT_DIR$/updateSql/back_data_base/drop_sequence.sql" />
+    <entry file="file://$PROJECT_DIR$/updateSql/back_data_base/create_pkey.sql" />
+    <entry file="file://$PROJECT_DIR$/updateSql/back_data_base/create_sequence.sql" />
+    <entry file="file://$PROJECT_DIR$/updateSql/qualitySatr.sql" />
+    <entry file="file://$PROJECT_DIR$/updateSql/common_data.sql" />
+    <entry file="file://$PROJECT_DIR$/updateSql/sys_dict_insert_20210112.sql" />
+    <entry file="file://$PROJECT_DIR$/updateSql/ac_res_insert_20220112.sql" />
+    <entry file="file://$PROJECT_DIR$/project_npi/SKDCKD/api.json" />
+    <entry file="file://$PROJECT_DIR$/project_npi/SKDCKD/数据结构设计.json" />
     <entry file="file://$PROJECT_DIR$/开发流程.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -615,10 +562,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/new 2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="37" column="6" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profile/JL重构.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5358">
+          <caret line="282" selection-start-line="282" selection-end-line="282" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/最新硬件知识.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="247">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
@@ -631,20 +592,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="69" selection-start-line="16" selection-start-column="69" selection-end-line="16" selection-end-column="69" />
+        <state relative-caret-position="1159">
+          <caret line="61" column="50" selection-start-line="61" selection-start-column="50" selection-end-line="61" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/取名字.txt">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/updateSql/ac_res_insert_20220112.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1710">
-          <caret line="90" selection-start-line="90" selection-end-line="90" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/month_2/month_2.txt">
       <provider selected="true" editor-type-id="text-editor">
@@ -653,10 +607,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/new 2.txt">
+    <entry file="file://$PROJECT_DIR$/project_npi/SKDCKD/api设计.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="152">
+          <caret line="134" column="15" selection-start-line="134" selection-start-column="15" selection-end-line="134" selection-end-column="15" />
         </state>
       </provider>
     </entry>

@@ -115,7 +115,7 @@ Lm
 2021/6-2022/3 NPI系统
 
 开发环境：JDK1.8、maven、Redis、Nacos、mongoDB、postgreSQL、mySQL、Mybatis Plus、rocketMQ、ELK、rubby、ICS、XOPS、powerBI。
-开发工具：IntellJ IDEA、PostMan、Jira、NaviCat、redisClient、Git、Edge、MobaXterm、outlook、OneDrive、Teams、TeamsView、ToDesk。
+开发工具：IntelliJ IDEA、PostMan、Jira、NaviCat、redisClient、Git、Edge、MobaXterm、outlook、OneDrive、Teams、TeamsView、ToDesk。
 项目具体描述：
 NPI 系统是联想手机排产、销售报表管理的一个业务系统，该属于联想 NPI(New Product Intelligence) 部门。
 系统被评为联想最复杂的系统之一，凭借该系统，我们小组获取的年度最佳团队称号。
@@ -135,7 +135,7 @@ NPI 系统是联想手机排产、销售报表管理的一个业务系统，该�
 2020/6-2021/6 QES系统
 
 开发环境：JDK1.8、maven、Redis、Nacos、mongoDB、postgreSQL、mySQL、Mybatis Plus、rocketMQ、ELK、rubby、ICS、jenkins、powerBI。
-开发工具：IntellJ IDEA、PostMan、Jira、NaviCat、Xshell、Xftp、redisClient、Git、Chrome、MobaXterm、outlook、OneDrive、Skype、VPN、CiscoVPN。
+开发工具：IntelliJ IDEA、PostMan、Jira、NaviCat、Xshell、Xftp、redisClient、Git、Chrome、MobaXterm、outlook、OneDrive、Skype、VPN、CiscoVPN。
 项目具体描述：
 QES(quality eco system)系统是联想手机质量管理的一个门户系统，属于联想MBG(motorola big data group)部门，系统整合了诸多的子系统如：认证系统AUTH、流程管理系统SQM、质量检测系统QIT、数据治理系统MQM，实现MBG部门对产品质量的时时管理和控制。
 参与完成的模块如下：
@@ -155,7 +155,7 @@ QES(quality eco system)系统是联想手机质量管理的一个门户系统，
 2019/12-2020/6智能制造系统 go语言版
 
 开发环境：JDK1.8、TomCat 、MySQL5.1、mongoDB、Redis、maven、docker、RabbitMQ、fastDFS、checkStyle、swagger、Activiti6.0、go1.13.3。
-开发工具：禅道、IntellJ IDEA、Goland、PostMan、NaviCat、Xshell、Xftp、XMind、redisClient、Git。
+开发工具：禅道、IntelliJ IDEA、Goland、PostMan、NaviCat、Xshell、Xftp、XMind、redisClient、Git。
 项目具体描述：
 智能制造系统包含：仓库管理系统WMS、供应商关系管理系统CRM、供应链管理系统SCM、生产管理系统MES、行政管理系统ERP，专为制造企业打造，是企业迈入工业4.0的必备神器。
 系统可适用于不同制造企业，因为系统抽象了制造行业所有的生产和管理流程，把所有的环节中的不同的部分使用规则来配置，想要将系统应用于不同企业，只需要修改规则，将该企业的特性加入到规则中即可。
@@ -171,7 +171,7 @@ QES(quality eco system)系统是联想手机质量管理的一个门户系统，
 
 3.2018.09 - 2019/03 四原官网项目
 开发环境：JDK1.8、TomCat 、maven、SonarLint、Alibaba Java Coding Guidelines、Mysql、docker、redis、oss。
-开发工具：Postman、IntellJ IDEA、SQLyog、Wireshark、DingTalk、Xftp、SecureCRT、XMind、redisClient、sourceTree。
+开发工具：Postman、IntelliJ IDEA、SQLyog、Wireshark、DingTalk、Xftp、SecureCRT、XMind、redisClient、sourceTree。
 项目描述：
 1）四原官网是一个为了展示四原公司形象，成果的网站，用于吸引更多的客户和投资机会，同时展示，推广公司的业务和产品，增加公司的社会认知度，增强公司的综合竞争力。项目包含的主要的功能模块如下：
 首页：展示公司的一些产品模型，设计概念。
@@ -187,7 +187,7 @@ QES(quality eco system)系统是联想手机质量管理的一个门户系统，
 
 2.2017.10 - 2018.09 云图书馆运营管理系统（重构+新项目）
 开发环境：JDK1.8、TomCat 、MySQL、Redis、Oss、maven、docker、Canal、Kafka、SonarLint、Alibaba Java Coding Guidelines。
-开发工具：IntellJ IDEA、PostMan、NaviCat、Xftp、SecureCRT、XMind、redisClient、Git、PowerDesigner。
+开发工具：IntelliJ IDEA、PostMan、NaviCat、Xftp、SecureCRT、XMind、redisClient、Git、PowerDesigner。
 项目描述：
 1）云图书馆运营系统是一个云平台，用于管理客户（图书馆的管理者）,管理图书馆，实现网上借书看书智能化，结合公司的硬件（智能借书机）实现实体书借还智能化的运营系统，同时，平台给广大的客户提供了大量的数字资源，如：电子书，纸质书，视频，各类信息，智能硬件系统等，方便客户实现对其下图书馆的管理。
 系统主要模块有很多，我完成的如下：
@@ -209,6 +209,9 @@ QES(quality eco system)系统是联想手机质量管理的一个门户系统，
 统计分析模块，由于统计的SQL语句十分庞大，我们采用canal技术，通过监控数据库的bin_log，实现统计数据的预先加载，在加载页面是只需要从预加载的数据中读取，解决里SQL语句无法再优化的问题。
 
 1. 2017/6-2017/10 莱米支付
+
+开发环境：JDK1.8、TomCat 、MySQL、Redis、maven、docker、Kafka、SonarLint、Alibaba Java Coding Guidelines。
+开发工具：IntelliJ IDEA、Eclipse、PostMan、Sqlyog、Xftp、SecureCRT、XMind、redisClient、Git。
 1）莱米支付是西南地区使用率最多的几个支付系统之一，客户包括舞东风、老邻居等连锁商户，系统提供二维码、条形码支付功能，包含主扫模块和被扫等模块，支持微信支付、支付宝、QQ钱包、翼支付、银联钱包，是超市管理者、购物者的理想支付平台。
 系统包含了账号管理模块、商户管理模块、银行管理模块、交易管理模块、微信服务号模块、互联网营销模块、消息管理模块、账号设置、退出登录等。
 账号管理模块：系统管理员能够账号总览，展示接入的银行和商家。
@@ -222,6 +225,7 @@ QES(quality eco system)系统是联想手机质量管理的一个门户系统，
 2）系统采用Spring+hibernate+SpringMVC集成的方式，前后端分离，前端页面使用jQuery、EasyUI等技术，后端使用SpringMVC接收用户的请求，调用了业务层的ThymeLeaf模板引擎，将业务封装为Controller接口，持久层使用hibernate进行关系型映射。使用Spring容器管理SpringMVC、hibernate组件，从而达到松散耦合的目的。
 
 1.
+鼎捷餐饮管理系统
 软件环境： Linux、 Nginx、TomCat、PostgreSQL、Memcached
 开发工具： Eclipse、Git、PowerDesigner、Spring-Tool-Suite、maven、SQLyog
 项目描述：
@@ -249,30 +253,31 @@ QES(quality eco system)系统是联想手机质量管理的一个门户系统，
 2010.06   大学英语四级
 ### 8. 语言能力
 英语：读写能力 熟练| 听说能力 熟练
+
+
 ### 9. 专业技能
-熟练掌握并使用 Java 开发核心技术，具有良好的编码规范和编程思想 ：精通 ：50 个月
-mysq、mongoDB、redis数据库 ：精通 ：50 个月
-了解算法、数据结构 ：一般 ：50 个月
-擅长对已有代码进行优化、重构、提升性能 ：精通 ：50 个月
+熟练掌握并使用 Java 开发核心技术，具有良好的编码习惯和编程思想 ：精通 ：60 个月
+mysq、mongoDB、redis数据库 ：精通 ：60 个月
+了解算法、数据结构 ：一般 ：60 个月
+擅长对已有代码进行优化、重构、提升性能 ：精通 ：60 个月
 了解ES高级特性 ：一般 ：12 个月
-ssm、ssh ：精通 ：50 个月
-serviceComb ：一般 ：12 个月
+mybatis plus ：精通 ：60 个月
+serviceMesh ：一般 ：12 个月
 Node+Vue,freemarker,thymeleaf ：熟练 ：36 个月
-springBoot + springCloud、springBoot+serviceMesh ：精通 ：48 个月
+springBoot + springCloud ：精通 ：48 个月
 JavaScript、Ajax、jQuery、BootStrap ：熟练 ：40 个月
 HTML、CSS ：良好 ：36 个月
-spring+Security、Shrio ：一般 ：12 个月
-熟练使用并掌握Linux常用命令，并部署项目到测试环境 ：精通 ：36 个月
+spring+Security、Shrio ：熟练 ：24 个月
+熟练使用并掌握Linux常用命令，并部署项目到测试环境 ：精通 ：60 个月
 熟练使用并了解docker+Jenkins,并部署项目 ：熟练 ：36 个月
 熟练使用并了解Activiti6.0工作流引擎 ：熟练 ：24 个月
 了解并发编程、分布式 ：一般 ：36 个月
-搭建、熟练使用并掌握rabbitMQ、kafka ：精通 ：36 个月
 RabbitMQ、Kafka ：熟练 ：12 个月
 熟练使用并掌握fastDFS、Thumbnail、EasyExcel、POI技术 ：精通 ：36 个月
-熟练使用并掌握Java8新特性 ：熟练 ：24 个月
+熟练使用并掌握Java8新特性 ：熟练 ：36 个月
 反射机制 ：精通 ：36 个月
-Git、SVN、IntelliJ IDEA、Eclipse、MyEclipse ：精通 ：50 个月
-Maven、Navicat、SQLyog、等项目管理和开发工具 ：精通 ：50 个月
+Git、SVN、IntelliJ IDEA、Eclipse、MyEclipse ：精通 ：60 个月
+Maven、Navicat、SQLyog、等项目管理和开发工具 ：精通 ：60 个月
 GO语言项目经验 ：熟练 ：6 个月
 
 

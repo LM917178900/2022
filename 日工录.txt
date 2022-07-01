@@ -69,9 +69,11 @@ spring==>java (jdk 类库：数据结构、源码方法)
  python,人工智能学习 完成项目架构；
  各种研究，学习；
  
+ 【架构师基础】
  系统架构设计；
  maven 结构配置：
- 
+ application 中的各种配置：
+ 【研究，各方面的对比，深入研究】
  
 （架构方面的书）双11
  《软件架构设计》余春龙
@@ -80,6 +82,7 @@ spring==>java (jdk 类库：数据结构、源码方法)
  《maven实战》
  《MySQL性能调优与架构设计》
  《高性能MySQL》
+ 《多线程编程》
  
  高性能MySQL 第3版 SQL优化数据库管理 mysql从入门到精通必知必会 数据挖掘数据库原理及应用 计算机语言编程设计书籍
  
@@ -87,11 +90,79 @@ spring==>java (jdk 类库：数据结构、源码方法)
  近期安排
  
  1. 简历完善；
- 2. 智联招聘信息 需求了解；
+ 2. 智联招聘信息 需求了解；优化建立
  简历中提到的技术review和实战操练;
+ 复习面试题，
+ 算法面试题；
  
  
+ 3. nbi maven项目架构；
+ 4. linux 
+ 5. 其他相关知识点；
+ 6. 项目中的知识点；
+ 
+ 
+Ioc/aop 理解
+https://blog.csdn.net/eson_15/article/details/51090040
+Linux 命令自由
+https://mp.weixin.qq.com/s/3D3RPrCgTW2fj_8GDnRJuw
+mybatis wrapper 构造器
+https://www.cnblogs.com/youcoding/p/15094467.html
 
 
 
-				
+增加认真深度和范围，增加处理事情的方法和手段；
+软件各方面提升自己：
+1. 知识积累，专业（工作中的各个方法），非专业（生活中的各个方面）；
+2. 理解能力；x (一字不漏的阅读,以中心论证每个词句，在别人说完话后，可以向对方询问你的理解是不是正确，多读、博读，多听)
+3. 逻辑能力；
+4. 表达能力；x (抓住听众的注意力，结构化思维)
+硬件方面提升自己：
+1. 遵循生物规律；（作息符合正常规律）
+2. 减少内脏负载：（少吃，吃的健康）
+3. 提升能动性、提升反应能力；（有氧训练）
+4. 提升力量；（力量训练）
+资源提升自己：
+1. 人际关系；
+2. 自我修养；（仁义理智信）
+3. 公司背景；
+
+Lm2661344972
+
+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
+
+1. 架构师会画系统模块，架构边界图，类图；
+2. tdd 测试驱动开发；
+3. 测试不仅仅是接口，还包含前端功能，一起测试；
+
+
+
+几年安排；
+架构师，cto,微软各种证件（iot、MCSD/MCDBA认证），华为，国家计算机一级二级证书,美国架构师证书；
+Micorsoft Certified Technology Sepcialist:MCTS
+Micorsoft Certified IT Professional:MCITP
+https://www.maigoo.com/citiao/247811.html
+
+
+
+一年安排
+ito(网站和书籍)/架构 and spring 技术深入掌握/26中设计模式/多线程编程（）/
+
+近期安排
+ito\linux\bug\算法编程\23种设计模式\经典问题
+
+明天安排
+iot\linux\bug
+
+
+
+
+
+
+
+
+
+
+
+
+
