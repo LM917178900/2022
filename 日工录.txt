@@ -54,7 +54,7 @@ spring==>java (jdk 类库：数据结构、源码方法)
 21. spring mvc jetty
 
 19. sql 练习：fcsd proposal cascade; v
-20. mqm redis 问题；  
+20. mqm redis 问题；dd
 
 
 	java 技术
